@@ -3,15 +3,15 @@ extends layout.pug
 block content
   nav.grid-container.portfolio-breadcrumb
     a(href='/') ← Back
-  article.grid-container.portfolio-intro.portfolio-project
+  article.div_articule_animation.grid-container.portfolio-intro.portfolio-project
     .grid-x
       .cell.small-6.medium-9.large-9
 
         //- Use interpolation to dynamically add the project title.
-        h1 #{project_name}
+        h1.h1_animation #{project_name}
 
         //- Use interpolation to dynamically add the project description.
-        p.lead.text-light
+        p.description_animation.lead.text-light
           | #{description}
 
       .cell.portfolio-meta.small-6.medium-2.large-3
@@ -23,9 +23,9 @@ block content
           li #{techno}
 
         //- Use template literals and interpolation to add URLs to the hrefs below so they link to the repo and the live version of each project.
-        a.button.expanded(target='_blanck', href=`${live_link}`) Live Demo
-        a.button.expanded(target='_blanck', href=`${github_link}`) GitHub Repo
+        a.button_animation.button.expanded(target='_blanck', href=`${live_link}`) Live Demo
+        a.button_animation_next.button.expanded(target='_blanck', href=`${github_link}`) GitHub Repo
 
     //- Replace the URLs in the src attributes below with template literals and interpolation to dynamically add three project images.  You only have to add one image.  But adding more images to show your app in different states demonstrates a level of thoroughness and professionalism that potential employers will like to see.
   each img in image_urls
-    img.image(src=`/static/${img}`)
+    img.image_animation.image(src=`/static/${img}`)
