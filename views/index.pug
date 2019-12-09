@@ -1,15 +1,15 @@
 extends layout.pug
 
 block content
-  article.grid-container.portfolio-intro
+  article.article_backg_index.grid-container.portfolio-intro
     div
 
       //- Add a title or heading like My Portfolio, or Hey, Potential Employers, or Let's make the web great together!
-      h1 My Portfolio
+      h1.h1_index_animation My Portfolio ✮
 
       //- Add a description for your portfolio, what this project is, it's purpose, what it's supposed to accomplish, etc.
       p.lead.text-light
-        | Portfolio Description
+        | Hey!! You want to see some cool projects?  You are in the right place!
   article.grid-container.portfolio-index
 
     .grid-x.grid-margin-x.small-up-2.medium-up-2.large-up-3
@@ -21,7 +21,7 @@ block content
       //- Here's what the Pug for each project example should look like.
 
     each projects in project
-      .cell
+      .cell.cell_animation
         a(href=`/projects/${projects.id}`)
           img.thumbnail(src=`/static/${projects.image_urls[0]}`)
           h5 #{projects.project_name}

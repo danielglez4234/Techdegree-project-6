@@ -3,30 +3,34 @@ extends layout.pug
 block content
   nav.grid-container.portfolio-breadcrumb
     a(href='/') ← Back
-  article.grid-container.portfolio-intro.portfolio-project
+  article.div_articule_animation.grid-container.portfolio-intro.portfolio-project
     .grid-x
       .cell.small-6.medium-9.large-9
 
         //- Add your name.
-        h1 Daniel González
+        h1.h1_animation Daniel González
 
         //- Feel free personalize the title below
-        p.lead.text-light
+        p.h1_animation.lead.text-light
           | Full Stack JavaScript Developer.
 
         //- Replace the boilerplate below with your Elevator pitch below.
         .portfolio-bio
-          p
-            | This is my elevator pitch. It is the elevator pitch to end all elevator pitches. Your mind is blown. Your mortal brain can scarcely process how well my prior experience maps to your open dev position.
-            | This is my elevator pitch. It is the elevator pitch to end all elevator pitches. Your mind is blown. Your mortal brain can scarcely process how well my prior experience maps to your open dev position.
-            | This is my elevator pitch. It is the elevator pitch to end all elevator pitches. Your mind is blown. Your mortal brain can scarcely process how well my prior experience maps to your open dev position.
+          p.description_animation
+            | Durante mi formación en el ciclo superior realice actividades de administración y mantenimiento de sistemas informáticos. Garantizando la funcionalidad e integridades de los recursos y los servicios del sistema.
+            | Mi Proyecto principal fue la creación de una tienda online, donde me encargue de desarrollar el Front End (CSS, HTML, Javascript) y el Back End (PHP, MySQL). En esta tarea tuve la oportunidad Implementar y gestionar la base de datos para almacenar toda la información de los clientes y productos.
+            | Asegure el sistema y los datos de acuerdo con las necesidades de uso y las condiciones de seguridad establecidas para evitar fallas y ataques externos. Todas mis actividades requerían un nivel calidad exigente y el cumplimiento de las normativas vigentes.
+            |
+
       .cell.portfolio-meta.small-6.medium-2.large-3
         h6 Skills
 
         //- Replace the text in the li tags below with your own skills.  At this point, you should be able to list at least ten skills.
         ul
           li WordPress
+          li Node
           li Express
+          li Git
           li HTML
           li CSS
           li JavaScript
@@ -40,8 +44,8 @@ block content
           li gnzlzdaniel.task@gmail.com
 
         //- Add URLs to the hrefs below to link to your social media accounts.
-        a.button.expanded(target='_blank', href='https://www.linkedin.com/in/daniel-gonz%C3%A1lez-gonz%C3%A1lez-web-design/') LinkedIn
-        a.button.expanded(target='_blank', href='https://github.com/danielglez4234') GitHub
-        a.button.expanded(href='') Twitter
+        a.button_animation.button.expanded(target='_blank', href='https://www.linkedin.com/in/daniel-gonz%C3%A1lez-gonz%C3%A1lez-web-design/') LinkedIn
+        a.button_animation_next.button.expanded(target='_blank', href='https://github.com/danielglez4234') GitHub
+        a.button_animation_next2.button.expanded(href='') Twitter
   nav.grid-container.portfolio-breadcrumb
     a(href='/') ← Back
