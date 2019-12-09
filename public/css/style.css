@@ -48,8 +48,9 @@ a:hover{
 
 .image{
   display: inline-block;
-  max-width: 100%;
+  max-width: 97%;
   margin-bottom: 1rem;
+  margin-left: 1rem;
   border: solid 4px #fefefe;
   border-radius: 0;
   box-shadow: 0 0 0 1px rgba(10, 10, 10, 0.2);
@@ -59,6 +60,7 @@ a:hover{
 .portfolio-me{
   padding: 20px;
   background: #121213;
+  /* background-image: linear-gradient(to top, #ee5858, #d0516d, #aa5077, #825073, #5f4c64, #4d4454, #3e3b44, #323232, #272727, #1c1c1c, #111111, #000000); */
   color: #fff;
   box-shadow: none !important;
 }
@@ -122,8 +124,16 @@ a:hover{
 
   .portfolio-index .cell{
     margin-bottom: 15px;
+                                        display: inline-block;
+                                        vertical-align: top;
+                                        margin-right: 1rem;
+                                        width: 450px;
   }
 
+                                        .portfolio-index .cell img{
+                                          height: 350px;
+                                          width: 450px;
+                                        }
     .portfolio-index .cell h5{
       letter-spacing: 1px;
     }
@@ -133,7 +143,8 @@ a:hover{
 }
 
   .portfolio-meta .button{
-    margin-bottom: 5px;
+    margin-bottom: -5px;
+    margin-top: 16px;
   }
 
 .portfolio-project p{
@@ -148,3 +159,9 @@ a:hover{
 .portfolio-bio{
     line-height: 25px;
 }
+
+                                        /*---------------------------ERROR message------------------------------------*/
+                                        #error_message{
+                                          font-size: 80px;
+                                          color: #d65562;
+                                        }
