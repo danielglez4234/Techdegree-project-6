@@ -12,7 +12,7 @@
         {
           "id":1,
           "project_name":"Pagination and Filtering",
-          "description":"A program that creates a page for a long list of students by dividing them into blocks of 10, and also adds a search function that filters students by name.",
+          "description":"A program that creates a page for a long list of students by dividing them into blocks of 10, and also adds a search function that filters students by name and at the same time page the results.",
           "technologies":["HTML", "CSS", "JavaScript", "JQuery"],
           "live_link":"https://danielglez4234.github.io/Techdegree-project-2/",
           "github_link":"https://github.com/danielglez4234/Techdegree-project-2",
@@ -21,7 +21,7 @@
         {
           "id":2,
           "project_name":"Interactive Form",
-          "description":"It is an interactive form that includes dynamic and friendly messages that appear in real time for the user explaining how to use it to avoid errors and confusion.",
+          "description":"It is an interactive form that includes dynamic and friendly messages that appear in real time for the user explaining how to use it to avoid errors and confusion. The form can see which fields have been filled and send an error message if you try to send it without filling in the required fields.",
           "technologies":["HTML", "CSS", "JavaScript", "JQuery"],
           "live_link":"https://danielglez4234.github.io/Techdegree-project-3/",
           "github_link":"https://github.com/danielglez4234/Techdegree-project-3",
@@ -30,7 +30,7 @@
         {
           "id":3,
           "project_name":"Random Quote Generator",
-          "description":"A program that displays a randomly selected quote each time the user clicks a button or every 20 seconds.",
+          "description":"A program that displays a randomly selected quote and background-color each time the user clicks a button or every 20 seconds.",
           "technologies":["HTML", "CSS", "JavaScript"],
           "live_link":"https://danielglez4234.github.io/Techdegree-project-1/",
           "github_link":"https://github.com/danielglez4234/Techdegree-project-1",
@@ -39,7 +39,7 @@
         {
           "id":4,
           "project_name":"Public API Requests",
-          "description":"Is a program that displays an employee directory that obtains the data of each one from the third-party API(Application Programming Interface) \"The Random User Generator\".",
+          "description":"Is a program that displays an employee directory that obtains the data of each one from the third-party API(Application Programming Interface) \"The Random User Generator\". It also includes a search function and a function to see more information about users and move between them if you click on them.",
           "technologies":["HTML", "CSS", "JavaScript", "JQuery", "AJAX"],
           "live_link":"https://danielglez4234.github.io/Techdegree-project-5/",
           "github_link":"https://github.com/danielglez4234/Techdegree-project-5",
@@ -47,11 +47,11 @@
         },
         {
           "id":5,
-          "project_name":"Online Store With a Database",
-          "description":"Its a web page design of an online surf shop with integrated database, in which it is possible through the page to enter, update and delete products if you are registered as an administrator, you can create your own user that will be saved in the database. It has a page of more information for the products as well as a contact and history page and a shopping cart. The page runs using the XAMPP the Apache and MySQL web server",
+          "project_name":"Online Store With a db",
+          "description":"Its a web page design of an online surf shop with integrated database, in which it is possible through the page to enter, update and delete products if you are registered as an administrator, you can create your own user that will be saved in the database. It has a page of more information for the products as well as a contact and history page and a shopping cart. The page runs using the XAMPP the Apache and MySQL web server.",
           "technologies":["XAMPP", "HTML", "CSS", "JavaScript", "JQuery", "AJAX", "PHP", "MySQL"],
-          "live_link":"#",
-          "github_link":"https://github.com/danielglez4234/Techdegree-project-5",
+          "live_link":"",
+          "github_link":"https://github.com/danielglez4234/remoteftp-project",
           "image_urls":["/img/project6_1.png", "/img/project6_2.png", "/img/project6_3.png", "/img/project6_4.png", "/img/project6_5.png", "/img/project6_6.png"]
         }
     ]
