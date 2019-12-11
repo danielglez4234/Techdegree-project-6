@@ -62,7 +62,7 @@ a:hover{
 
 .portfolio-me{
   padding: 20px;
-                                                background: #24262d;
+                background: #24262d;
   color: #fff;
   box-shadow: none !important;
 }
@@ -89,7 +89,7 @@ a:hover{
 .portfolio-breadcrumb{
   margin: 0;
   padding: 20px;
-                                                background-color: #0d2230;
+                background-color: #0d2230;
   border-bottom: 1px solid #eaeaea;
 }
 
@@ -116,6 +116,9 @@ a:hover{
 .portfolio-index{
   margin: 0;
   padding: 10px 50px;
+                  animation: index_appear_bottom;
+                  animation-duration: 0.9s;
+                  animation-fill-mode: forwards;
 }
 
   .portfolio-index .thumbnail{
@@ -182,25 +185,15 @@ a:hover{
     font-family: Comfortaa-Bold;
 }
 
-/*---------------------------------ANIMATIONS-------------------------------------------------*/
+/*-------------------------------------CHANGES-I-MADE----------------------------------------*/
 
 
-/*-------INDEX------*/
+/*---------------INDEX-----------*/
 .article_backg_index{
   background-color: #24262d;
   margin-bottom: 30px;
   color: #fff;
 }
-
-.cell_animation{
-  animation: index_appear_bottom;
-  animation-duration: 0.7s;
-  animation-fill-mode: forwards;
-}
-  @keyframes index_appear_bottom {
-    from {margin-top: 100px; opacity:0;}
-    to {margin-top: 0px; opacity:1;}
-  }
 
 .h1_index_animation{
   font-family: Comfortaa-VariableFont;
@@ -208,13 +201,18 @@ a:hover{
   animation-duration: 0.7s;
   animation-fill-mode: forwards;
 }
+
+  @keyframes index_appear_bottom {
+    from {margin-top: 100px; opacity:0;}
+    to {margin-top: 0px; opacity:1;}
+  }
   @keyframes index_h1_appear_right {
     from {margin-left: 150px; opacity:0;}
     to {margin-left: 0px; opacity:1;}
   }
 
 
-/*------PROJECTS-AND-ABOUT------*/
+/*-----------PROJECTS-AND-ABOUT--------*/
 
 .div_articule_animation{
   animation: article_appear_bottom;
@@ -295,7 +293,7 @@ a:hover{
 }
     @keyframes button_appear_next2 {
       from {margin-left: 50px; background-color: white;}
-      to {margin-left: 0px; background-color: #2aa6ba;}
+      to {margin-left: 0px; background-color: #ba2a2a;}
     }
 
 /*--------------------------------ERROR message----------------------------------------------*/
