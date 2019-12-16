@@ -1,5 +1,6 @@
 const express = require('express');
 const data = require('./data.json').projects;
+const http = require('http');
 
 const app = express();
 app.set('view engine', 'pug'); // setting view engine to pug
@@ -31,7 +32,10 @@ app.use((err, req, res, next) => {
   res.render('error');
 });
 
+const port = process.env.PORT || 3000;
 // setting the port to 3000
-app.listen(3000, () => {
-  console.log('The aplication is runnig in the localhost:3000');
+http.createServer(function(request, response) {
+  response.writeHead(200, { 'Content-Type': 'text/plain' });
+}).listen(port, function() {
+  console.log("Server running at http://oursite:"+ port +"/");
 });
