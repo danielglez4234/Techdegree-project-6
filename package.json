@@ -12,6 +12,9 @@
     "url": "git+https://github.com/danielglez4234/Techdegree-project-6.git"
   },
   "keywords": [],
+  "engines": {
+    "node": "13.3.0"
+  },
   "author": "",
   "license": "ISC",
   "bugs": {
