@@ -13,7 +13,7 @@
   },
   "keywords": [],
   "engines": {
-    "node": "4.2.4"
+    "node": "13.3.0"
   },
   "author": "",
   "license": "ISC",
