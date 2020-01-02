@@ -23,7 +23,6 @@
   "homepage": "https://github.com/danielglez4234/Techdegree-project-6",
   "dependencies": {
     "express": "^4.17.1",
-    "gh-pages": "^2.1.1",
     "pug": "^2.0.4"
   }
 }
