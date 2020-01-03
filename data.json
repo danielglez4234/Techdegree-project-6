@@ -7,7 +7,7 @@
           "technologies":["HTML", "CSS", "JavaScript", "JQuery", "OOP JS"],
           "live_link":"https://danielglez4234.github.io/Techdegree-project-4/",
           "github_link":"https://github.com/danielglez4234/Techdegree-project-4",
-          "image_urls":["img/project4-1.png", "img/project4-2.png", "img/project4-3.png", "img/project4-4.png"]
+          "image_urls":["img/project4-1.jpg", "img/project4-2.jpg", "img/project4-3.jpg", "img/project4-4.jpg"]
         },
         {
           "id":1,
@@ -16,7 +16,7 @@
           "technologies":["HTML", "CSS", "JavaScript", "JQuery"],
           "live_link":"https://danielglez4234.github.io/Techdegree-project-2/",
           "github_link":"https://github.com/danielglez4234/Techdegree-project-2",
-          "image_urls":["img/project2-1.png", "img/project2-2.png", "img/project2-3.png"]
+          "image_urls":["img/project2-1.jpg", "img/project2-2.jpg", "img/project2-3.jpg"]
         },
         {
           "id":2,
@@ -25,7 +25,7 @@
           "technologies":["HTML", "CSS", "JavaScript", "JQuery"],
           "live_link":"https://danielglez4234.github.io/Techdegree-project-3/",
           "github_link":"https://github.com/danielglez4234/Techdegree-project-3",
-          "image_urls":["img/project3-1.png", "img/project3-2.png", "img/project3-3.png"]
+          "image_urls":["img/project3-1.jpg", "img/project3-2.jpg", "img/project3-3.jpg"]
         },
         {
           "id":3,
@@ -34,7 +34,7 @@
           "technologies":["HTML", "CSS", "JavaScript"],
           "live_link":"https://danielglez4234.github.io/Techdegree-project-1/",
           "github_link":"https://github.com/danielglez4234/Techdegree-project-1",
-          "image_urls":["img/project1-1.png", "img/project1-2.png", "img/project1-3.png"]
+          "image_urls":["img/project1-1.jpg", "img/project1-2.jpg", "img/project1-3.jpg"]
         },
         {
           "id":4,
@@ -43,7 +43,7 @@
           "technologies":["HTML", "CSS", "JavaScript", "JQuery", "AJAX"],
           "live_link":"https://danielglez4234.github.io/Techdegree-project-5/",
           "github_link":"https://github.com/danielglez4234/Techdegree-project-5",
-          "image_urls":["img/project5-1.png", "img/project5-2.png", "img/project5-3.png"]
+          "image_urls":["img/project5-1.jpg", "img/project5-2.jpg", "img/project5-3.jpg"]
         },
         {
           "id":5,
@@ -52,7 +52,7 @@
           "technologies":["XAMPP", "HTML", "CSS", "JavaScript", "JQuery", "AJAX", "PHP", "MySQL"],
           "live_link":"",
           "github_link":"https://github.com/danielglez4234/remoteftp-project",
-          "image_urls":["img/project6-1.png", "img/project6-2.png", "img/project6-3.png", "img/project6-4.png", "img/project6-5.png", "img/project6-6.png"]
+          "image_urls":["img/project6-1.jpg", "img/project6-2.jpg", "img/project6-3.jpg", "img/project6-4.jpg", "img/project6-5.jpg", "img/project6-6.jpg"]
         }
     ]
 }
